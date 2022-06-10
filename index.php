@@ -131,7 +131,7 @@ id="stars3"></div> </section>
 
 <section class="content" >
 
-<?php include 'csv.php'; ?>
+<?php include 'HomeTable.php'; ?>
 
 </section>
 <br>
