@@ -16,8 +16,12 @@ The Exoplanet Archive was created to retrieve and present automated confirmed ex
 
 - MySql --> This was the database management system for the project. It consisted of a database with two tables, one thats called on for the home page and the other is called on for dynamic content page using the tables primary keys.
 
-- PHP --> 
-- JavaScript --> 
-- Libraries --> 
-- HTML & CSS -->
+- PHP --> This was used to connect to the database from the server side and present it into a jquery datatable. PHP/SQL queries were written for both tables and the dynamic content relied on the exoplanet ID to present it's indivisual page. The queries were also written for pagination for faster load time of a large dataset.
+
+- JavaScript --> This was used for the creation of the timed slideshow using a interval function and timer. 
+
+- Libraries --> Jquery-Ajax, Bootstrap, and datatable libraries.
+
+- HTML & CSS --> Animted star rush background.
  
+ ## How To Use
