@@ -5,7 +5,7 @@
 - [How To Use](#how-to-use)
 - [Experiences](#Experiences)
 - [Link](#link)
-- [API & Data Sources](#api)
+- [API & Data Sources](#API & Data Sources)
 
 ## Description
 
@@ -30,7 +30,10 @@ The Exoplanet Archive was created to retrieve and present automated confirmed ex
 A user can get the most out of this website by selecting an exoplanet of interest from the datatable. After being redirected to the dynamic content page, the selected exoplanets properties can be compared the properties of planets in our own solar system using the interactive graph provided. These instructions can also be found on the about page.
 
 ## Experiences
+This project took me two months. I learned a few lessons such as working on a mobile design first and different alternative libraries that could have been used. This was also the first project I was able to implement Golang and Tableua. Challenging myself with those learning curves was very pleasing and Im excited to implement Golang for other Full Stack projects seeing how effective it can be. 
 
+## Link 
+ - cs.oswego.edu/~fsanche3/exo/
 
 ## API & Data Sources
 - Http request --> "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,disc_year,discoverymethod,disc_telescope,pl_orbper,pl_radj,pl_masse,pl_orbeccen,sy_mnum,pl_rade,pl_massj,pl_dens,disc_facility+from+ps&format=json"
