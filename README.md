@@ -14,7 +14,8 @@ The Exoplanet Archive was created to retrieve and present automated confirmed ex
 ## Stack
 - Golang --> Golang was used to make the http API request and mirror the JSON data into a slice consisting of exoplanet structs with its relative properties. It was also used to connect and insert the data into the mysql database table hosted by Suny Oswego's University servers. Lastly it implemets a time() function which calles the API request periodically.
 
-- MySql --> This was the database management system for the project. It consisted of two tables, one thats called on for the home page and the other is called on for dynamic content page.
+- MySql --> This was the database management system for the project. It consisted of a database with two tables, one thats called on for the home page and the other is called on for dynamic content page using the tables primary keys.
+
 - PHP --> 
 - JavaScript --> 
 - Libraries --> 
