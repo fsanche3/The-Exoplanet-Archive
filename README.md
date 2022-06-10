@@ -1,4 +1,4 @@
-# The-Exoplanet-Archive
+# The-Exoplanet-Archive(Full Stack)
 ### Table of Contents
 - [Description](#description)
 - [Stack](#stack)
