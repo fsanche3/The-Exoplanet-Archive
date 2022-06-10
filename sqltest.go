@@ -10,7 +10,7 @@ import (
 func main() {
 	fmt.Println("Drivers:", sql.Drivers())
 	var err error
-	db, err := sql.Open("mysql", "fsanche3:isc496@tcp(pi.cs.oswego.edu:3306)/fsanche3_22S")
+	db, err := sql.Open("mysql", "fsanche3:isc496@/fsanche3_22S")
 
 	if err != nil {
 		panic(err.Error())
