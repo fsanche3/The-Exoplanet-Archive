@@ -18,7 +18,7 @@ The Exoplanet Archive was created to retrieve and present automated confirmed ex
 
 - PHP --> This was used to connect to the database from the server side and present it into a jquery datatable. PHP/SQL queries were written for both tables and the dynamic content relied on the exoplanet ID to present it's individual page. The queries were also written for pagination for faster load time of a large dataset.
 
-- Tableau --> I used the API data for the exoplanet presentation and a seperate dataset of planets within our solar system and presented them on a dashboard that I specifically created for this project. The dashboard can be used to compare the exoplanet properties with planets in our own solar system.
+- Tableau --> I used the a seperate dataset of planets within our solar system and presented them on a dashboard that I specifically created for this project. The dashboard can be used to compare the exoplanet properties with planets in our own solar system.
 
 - JavaScript --> The creation of the timed slideshow using a interval function and a counter. 
 
