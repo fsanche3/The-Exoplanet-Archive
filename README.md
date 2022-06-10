@@ -24,7 +24,7 @@ The Exoplanet Archive was created to retrieve and present automated confirmed ex
 
 - Libraries --> Jquery-Ajax, Bootstrap, and datatable libraries.
 
-- HTML & CSS --> Animted star rush background.
+- HTML & CSS --> CSS Grid, Animted star rush background.
  
  ## How To Use
 A user can get the most out of this website by selecting an exoplanet of interest from the datatable. After being redirected to the dynamic content page, the selected exoplanets properties can be compared the properties of planets in our own solar system using the interactive graph provided. These instructions can also be found on the about page.
