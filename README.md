@@ -3,9 +3,9 @@
 - [Description](#description)
 - [Stack](#stack)
 - [How To Use](#how-to-use)
-- [API & Data](#API-and-Data)
-- [Experiences and Lessons Learned](#Experiences)
+- [Experiences](#Experiences)
 - [Link](#link)
+- [API & Data Sources](#api)
 
 ## Description
 
@@ -29,8 +29,9 @@ The Exoplanet Archive was created to retrieve and present automated confirmed ex
  ## How To Use
 A user can get the most out of this website by selecting an exoplanet of interest from the datatable. After being redirected to the dynamic content page, the selected exoplanets properties can be compared the properties of planets in our own solar system using the interactive graph provided. These instructions can also be found on the about page.
 
+## Experiences
+
+
 ## API & Data
 - Http request --> "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,disc_year,discoverymethod,disc_telescope,pl_orbper,pl_radj,pl_masse,pl_orbeccen,sy_mnum,pl_rade,pl_massj,pl_dens,disc_facility+from+ps&format=json"
 - The Solar System bodies data set was recovered from Kaggle.com.
-
-## Experiences and Lessons Learned
