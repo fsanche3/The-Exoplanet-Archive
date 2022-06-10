@@ -9,7 +9,7 @@
 
 ## Description
 
-The Exoplanet Archive was created to retrieve and present automated confirmed exoplanet discoveries from NASA's exoplanet API. The main idea behind it was to present the data in a simple manner with the help of data visualization. I thought of this idea while watching a video on an exoplanet discovery and found myself wanting to get a better idea of where the planet is relative to its sun. Today I refer to this website when I encounter new discoveries and the comparisons using the Tableau dashboard helps me build a mental image of the exoplanet and its properties.
+The Exoplanet Archive was created to retrieve and present automated confirmed exoplanet discoveries from NASA's exoplanet API. The main idea behind it was to present the data in a simple manner with the help of data visualization. I thought of this idea while watching a video on an exoplanet discovery and found myself wanting to get a better idea of where the planet is relative to its sun. Today I refer to this website when I encounter new discoveries and the using the Tableau comparisons dashboard helps me build a mental image of the exoplanet and its properties.
 
 ## Stack
 - Golang --> Golang was used to make the http API request and mirror the JSON data into a slice consisting of exoplanet structs with its relative properties. It was also used to connect and insert the data into the mysql database table hosted by Suny Oswego's University servers. Lastly it implemets a time() function which calles the API request periodically.
